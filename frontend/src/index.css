@@ -1,0 +1,29 @@
+.input-file {
+    display: block;
+    border: 4px dashed green;
+    border-radius: 20px;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+}
+
+.input-file p {
+    font-size: 1.2rem;
+    width: 180px;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    text-overflow: ellipsis;
+    margin: 0;
+}
+
+.input-wrap {
+    width: 200px;
+}
+
+.file-wraper {
+    width: 100%;
+    max-width: 600px;
+}
